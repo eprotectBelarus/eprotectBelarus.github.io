@@ -466,9 +466,10 @@ address {
     color: rgb(43, 43, 43);
 }
 
-.address-features__item:hover .address-features__link {
+.address-features__item:hover {
     transform: scale(1.1);
     color: #000;
+    cursor: pointer;
 }
 
 .contacts__list {
@@ -480,10 +481,10 @@ address {
     padding: 10px 15px;
 }
 
-.map_google {
-    width: 100%;
+.map {
     height: 450px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .partners {
@@ -513,13 +514,13 @@ footer {
 .footer__list {
     display: flex;
     justify-content: space-between;
-    padding: 15px 25px;
+    padding: 3px 25px;
     font-weight: 700;
 }
 
 .footer__item {
     font-size: 0.8rem;
-    color: rgba(212, 212, 212, 1);
+    color: rgb(29, 28, 28);
 }
 
 @media screen and (max-width: 1080px) {
